@@ -35,3 +35,14 @@ La asignación considera tres reglas:
 3. Evitar asignaciones duplicadas al mismo estudiante en el día.
 
 Esta documentación se actualiza en la rama feature/asignacion-turnos para demostrar el control de versiones con Git y GitHub.
+## Control de cupos por turno
+
+El sistema verifica la disponibilidad antes de asignar un turno de almuerzo.
+
+Reglas de control:
+1. Comprobar la capacidad máxima de cada turno.
+2. Evitar asignaciones cuando el turno está lleno.
+3. Buscar otro turno con cupos disponibles.
+4. Impedir registros duplicados del mismo estudiante.
+
+Esta sección documenta el control de cupos del sistema.
