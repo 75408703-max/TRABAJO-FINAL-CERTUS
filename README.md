@@ -24,3 +24,14 @@ python -m unittest discover -s tests -v
 - `feature/pruebas`: pruebas automáticas.
 
 **Nota de alcance:** el ZIP adjunto incluye el historial Git real ejecutado localmente. No debe confundirse con un repositorio publicado en GitHub; los Pull Requests requieren publicarlo y realizarlos allí. Consulte `docs/PUBLICAR_EN_GITHUB.md`.
+## Criterios de asignación de turnos
+
+El sistema organiza a los estudiantes en 10 turnos de 15 minutos.
+
+La asignación considera tres reglas:
+
+1. Seleccionar el turno con menor ocupación.
+2. Verificar que exista capacidad disponible.
+3. Evitar asignaciones duplicadas al mismo estudiante en el día.
+
+Esta documentación se actualiza en la rama feature/asignacion-turnos para demostrar el control de versiones con Git y GitHub.
